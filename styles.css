@@ -11,6 +11,7 @@ h1{
 
 /* Body */
 body{
+ text-align:center;
  background-color:transparent;
  border-color:#000000;
  border-style:solid;
