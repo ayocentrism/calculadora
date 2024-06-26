@@ -1,34 +1,29 @@
-/* Heading */
-h1{
- text-align:center;
- background-color:rgba(0,0,0,0);
- transform:translatex(0px) translatey(0px);
- color:#000000;
- font-size:36px;
- font-style:normal;
- text-transform:none;
+body {
+  font-family: sans-serif;
 }
 
-/* Body */
-body{
- text-align:center;
- background-color:transparent;
- border-color:#000000;
- border-style:solid;
- border-width:5px;
- width:610px;
- height:330px;
- position:relative;
- left:0px;
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
 
-/* Button */
-.contenedor-formulario button{
- transform:translatex(0px) translatey(8px);
+.contenedor-formulario label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-/* Label */
-.contenedor-formulario label{
- position:relative;
- top:5px;
+.contenedor-formulario input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
